@@ -22,7 +22,7 @@ class EncryptionService {
   }
 
   async generateFileHeader(sharedKeys[], publikKeys, filePath) {
-    //attach header to file {[sharedKey: k, publicKey: p]}
+    //attach header to file [{sharedKey: k, publicKey: p},{},{}...]
     return true;
   }
 

@@ -16,11 +16,13 @@ class EncryptionService {
     return true;
   }
 
-  async generateSharedKey() {
+  async generateSharedKeys(publicKeys[], privateKey) {
+    //return sharedKeys[]
     return true;
   }
 
-  async generateFileHeader(sharedKey, publikKeys, filePath) {
+  async generateFileHeader(sharedKeys[], publikKeys, filePath) {
+    //attach header to file {[sharedKey: k, publicKey: p]}
     return true;
   }
 
